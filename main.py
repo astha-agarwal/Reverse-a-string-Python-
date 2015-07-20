@@ -6,7 +6,7 @@ if len == 0:
   return
 else:
   reverse_string = ''
-  while length > 0:
+  while length >= 0:
     reverse_string += string[length]
     length = length - 1
   return reverse_string
